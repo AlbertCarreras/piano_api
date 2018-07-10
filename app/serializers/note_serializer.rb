@@ -1,4 +1,4 @@
 class NoteSerializer < ActiveModel::Serializer
-  attributes :id
-  belongs_to :songs
+  attributes :id, :note
+  belongs_to :song
 end

@@ -1,6 +1,6 @@
 class CreateTableNotes < ActiveRecord::Migration[5.2]
   def change
-    create_table :table_notes do |t|
+    create_table :notes do |t|
       t.integer :song_id
       t.integer :time_in
       t.integer :duration
