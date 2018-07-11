@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2018_07_10_190116) do
   create_table "notes", force: :cascade do |t|
     t.integer "song_id"
     t.integer "time_in"
-    t.integer "duration"
+    t.float "duration"
     t.string "note"
   end
 
