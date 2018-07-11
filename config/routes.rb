@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       get '/songs', to: 'songs#index'
       post '/songs', to: 'songs#create'
+      get '/songs/:id', to: 'songs#show'
     end
   end
 

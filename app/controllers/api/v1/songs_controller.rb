@@ -13,6 +13,11 @@ class Api::V1::SongsController < ApplicationController
     render json: song, status: 201
   end
 
+  def show
+    song = Song.find(params['id'])
+    render json: song, status: 200
+  end
+
   private
   def song_params
     params.permit(:name, :notes)
