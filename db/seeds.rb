@@ -11,7 +11,7 @@
 song = Song.create(name: "Random")
 
 note1 = Note.create(song_id: song.id, time_in: 1, duration: 1, note: "C")
-note2 = Note.create(song_id: song.id, time_in: 1, duration: 1, note: "C#")
-note3 = Note.create(song_id: song.id, time_in: 1, duration: 1, note: "F")
-note4 = Note.create(song_id: song.id, time_in: 1, duration: 1, note: "F#")
-note5 = Note.create(song_id: song.id, time_in: 1, duration: 1, note: "G")
+note2 = Note.create(song_id: song.id, time_in: 2, duration: 1, note: "C#")
+note3 = Note.create(song_id: song.id, time_in: 3.3, duration: 2, note: "F")
+note4 = Note.create(song_id: song.id, time_in: 4, duration: 1.1, note: "F#")
+note5 = Note.create(song_id: song.id, time_in: 5.4, duration: 1, note: "G")
